@@ -18,8 +18,8 @@ The subsequent diagram illustrates a sample of 100 simulated paths for TSLA stoc
 
 # Conclusion and recommendations...
 
-In this project, we calibrated our model using liquidly traded options on TSLA stock to evaluate a portfolio of American put options on TSLA, which expires on September 19, 2025. The model's option values aligned closely with market quotes, as demonstrated by minimal errors measured by the mean squared error (MSE), proving that our model was well-calibrated. 
+In this project, we calibrated our model using liquidly traded options on TSLA stock to evaluate a portfolio of American put options on TSLA, which expires on September 19, 2025. The model's option values aligned closely with market quotes, as demonstrated by minimal errors measured by the mean squared error (MSE), proving that our model was well-calibrated (see diagram below). We then employed the model to assess a portfolio of non-traded American options on TSLA stock. Additionally, we computed risk metrics such as the portfolio's delta and vega for effective risk management. 
 
 ![calibration results](calibration_results.png)
 
-We then employed the model to assess a portfolio of non-traded American options on TSLA stock. Additionally, we computed risk metrics such as the portfolio's delta and vega for effective risk management.
+
