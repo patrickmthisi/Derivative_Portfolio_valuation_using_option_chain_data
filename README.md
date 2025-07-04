@@ -7,7 +7,7 @@ The main highlights of this project involve:
 1. Calibrating our model to market quotes of liquidly traded options.
 2. The model used for simulation was a jump-diffusion model, given by:
 
-$$S_{t_{m+1}} = \Big(exp\Big(\Big(r - r_j - \frac{\sigma^2}{2}\Big)(t_{m+1} - t_{m}) + \sigma\sqrt{t_{m+1} - t_{m}}z_{t}^{1}\Big) + \Big(exp(\mu_{j} + \sigma z_{t}^{2}) - 1\Big)y_t\Big) \\ 0 \le t_m \le t_{m+1} \le T$$
+$$S_{t_{m+1}} = \Big(exp\Big(\Big(r - r_j - \frac{\sigma^2}{2}\Big)(t_{m+1} - t_{m}) + \sigma\sqrt{t_{m+1} - t_{m}}z_{t}^{1}\Big) + \Big(exp(\mu_{j} + \sigma z_{t}^{2}) - 1\Big)y_t\Big), \\ 0 \le t_m \le t_{m+1} \le T$$
 
 The subsequent diagram illustrates a sample of 100 simulated paths for TSLA stock, derived from calibrated model parameters:
 
